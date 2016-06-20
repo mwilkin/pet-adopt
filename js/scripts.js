@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // backend
 var newAnimalInputs = [];
 function Friend(petName,petAge,petNotes,petType,petEnergy) {
@@ -45,5 +46,24 @@ $(document).ready(function() {
     // </div>
     // </div>
   });
+=======
+var Dog {
+
+}
+
+
+
+
+
+
+
+
+
+$(document).ready(function() {
+  $(".pet-name").click(function(event){
+  event.preventDefault();
+  $(".pet-info").find().show();
+
+>>>>>>> 3de1d958779a3a0b3bd14d00c04c6350ef4ef3b3
 });
 });
