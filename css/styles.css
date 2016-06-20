@@ -1,0 +1,39 @@
+html {
+  max-width: 100%;
+}
+
+ nav p {
+   padding-top: 15px;
+   padding-left: 90px;
+ }
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 1.25em;
+}
+
+strong {
+  line-height: .75em;
+}
+
+
+.pet-info {
+  display: none;
+}
+
+.pet-name:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+header {
+  background-image: url(../img/banner.jpg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
