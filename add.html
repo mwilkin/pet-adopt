@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Animals 4 U</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="xs-col-6 md-col-4 col-md-offset-2">
+          <div class="jumbotron">
+            <h2>Time for a New Home?</h2>
+          </div>
+          <form id="new-friend">
+            <label for="friend-type">Cat or Dog?</label>
+            <select class="form-control" type="text" name="friend-type" value="">
+              <option value="select-type">select type</option>
+              <option value="dog">dog</option>
+              <option value="cat">cat</option>
+              <!-- <option value="bird">bird</option>
+              <option value="reptile">reptile</option> -->
+            </select>
+            <label for="friend-name">Name</label>
+            <input class="form-control" type="text" name="friend-name" value="">
+            <label for="friend-age">Age</label>
+            <input class="form-control" type="number" name="friend-age" value="">
+            <label for="friend-notes">Important Notes</label>
+            <input class="form-control" type="text" name="friend-notes" value="">
+            <label for="friend-energy">How much energy?</label>
+            <select class="form-control" type="text" name="friend-energy" value="" width="50%">
+              <option value="select-type">select type</option>
+              <option value="sleepy">sleepy</option>
+              <option value="lazy">lazy</option>
+              <option value="medium">medium</option>
+              <option value="playful">playful</option>
+              <option value="bundle">bundle of joy</option>
+            </select>
+            <!-- <span id="add-image" class="btn btn-lg btn-warning">Add Image</span> -->
+            <span id="add-friend" class="btn btn-lg btn-success">Add a Friend</span>
+          </form>
+        </div>
+        <div class="xs-col-6 md-col-4 col-md-offset-2">
+          <span id="show-friend"></span>
+        </div>
+
+    </div>
+  </div>
+  </body>
+</html>

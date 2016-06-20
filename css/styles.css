@@ -1,0 +1,9 @@
+.jumbotron {
+  text-align: center;
+}
+
+.show-friend {
+  background-color: pink;
+  height: 300px;
+  width: 300px;
+}
